@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.roman.petrenko</OriginalElement>
+  <nodes>
+    <node x="176.0" y="9.451171875">com.roman.petrenko.Model</node>
+    <node x="0.0" y="9.451171875">com.roman.petrenko.View</node>
+    <node x="99.17857142857143" y="149.451171875">com.roman.petrenko.Controller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.roman.petrenko.Controller" target="com.roman.petrenko.Model">
+      <point x="11.166666666666657" y="-15.0" />
+      <point x="177.34523809523807" y="109.451171875" />
+      <point x="249.92857142857142" y="109.451171875" />
+      <point x="16.42857142857143" y="15.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller" target="com.roman.petrenko.Controller">
+      <point x="-44.666666666666664" y="15.0" />
+      <point x="121.51190476190476" y="199.451171875" />
+      <point x="79.17857142857143" y="199.451171875" />
+      <point x="79.17857142857143" y="174.451171875" />
+      <point x="-67.0" y="10.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller" target="com.roman.petrenko.View">
+      <point x="-11.166666666666657" y="-15.0" />
+      <point x="155.01190476190476" y="109.451171875" />
+      <point x="88.33333333333337" y="109.451171875" />
+      <point x="35.33333333333337" y="15.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model" target="com.roman.petrenko.Model">
+      <point x="-16.42857142857143" y="15.0" />
+      <point x="217.07142857142856" y="79.451171875" />
+      <point x="136.0" y="79.451171875" />
+      <point x="136.0" y="20.701171875" />
+      <point x="-57.5" y="-3.75" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="67.0" y="90.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

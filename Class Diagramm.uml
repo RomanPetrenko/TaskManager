@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.roman.petrenko</OriginalElement>
+  <nodes>
+    <node x="1873.0" y="2064.0">com.roman.petrenko.Model.TaskIO</node>
+    <node x="876.5" y="1472.0">com.roman.petrenko.Model.ArrayTaskList.ArrayListIterator</node>
+    <node x="2580.0" y="1803.0">com.roman.petrenko.Controller.TasksNotificationsController</node>
+    <node x="2220.5" y="2163.0">com.roman.petrenko.Controller.TasksSaveController</node>
+    <node x="1181.0" y="1239.0">com.roman.petrenko.Model.ArrayTaskList</node>
+    <node x="1461.0" y="479.0">com.roman.petrenko.Model.LinkedTaskList</node>
+    <node x="1240.5" y="145.0">com.roman.petrenko.Model.LinkedTaskList.Node</node>
+    <node x="1463.0" y="1748.0">com.roman.petrenko.Model.TaskList</node>
+    <node x="3361.5" y="1425.0">com.roman.petrenko.Controller.TasksViewController</node>
+    <node x="1196.5" y="272.0">com.roman.petrenko.Model.LinkedTaskList.LinkedListIterator</node>
+    <node x="2903.0" y="2766.0">com.roman.petrenko.Controller.TasksActionsController</node>
+    <node x="489.5" y="729.0">com.roman.petrenko.Model.Task</node>
+    <node x="3297.5" y="1572.0">com.roman.petrenko.View.TasksView</node>
+    <node x="1223.0" y="2479.0">com.roman.petrenko.Controller.TasksActions</node>
+    <node x="191.0" y="2614.0">com.roman.petrenko.Controller.TasksActionsController.TasksListener</node>
+    <node x="1347.0" y="2003.0">com.roman.petrenko.Model.Tasks</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController.TasksListener" target="com.roman.petrenko.Model.Task">
+      <point x="0.0" y="-26.0" />
+      <point x="320.0" y="960.0" />
+      <point x="-110.5" y="40.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController" target="com.roman.petrenko.Controller.TasksActions">
+      <point x="-137.0" y="-40.0" />
+      <point x="1360.0" y="2840.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.LinkedTaskList.Node" target="com.roman.petrenko.Model.LinkedTaskList">
+      <point x="39.5" y="8.571428571428584" />
+      <point x="1560.0" y="168.57142857142858" />
+      <point x="0.0" y="-81.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController" target="com.roman.petrenko.Model.Task">
+      <point x="-137.0" y="-33.333333333333485" />
+      <point x="600.0" y="2846.6666666666665" />
+      <point x="0.0" y="191.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController.TasksListener" target="com.roman.petrenko.Controller.TasksActionsController">
+      <point x="-129.0" y="20.0" />
+      <point x="120.0" y="2660.0" />
+      <point x="120.0" y="2860.0" />
+      <point x="-137.0" y="-20.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.ArrayTaskList" target="com.roman.petrenko.Model.TaskList">
+      <point x="40.0" y="81.0" />
+      <point x="1320.0" y="1800.0" />
+      <point x="-97.0" y="-40.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController" target="com.roman.petrenko.Model.Tasks">
+      <point x="-137.0" y="-46.666666666666515" />
+      <point x="1560.0" y="2833.3333333333335" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.TaskList" target="com.roman.petrenko.Model.Task">
+      <point x="-97.0" y="0.0" />
+      <point x="650.0" y="1840.0" />
+      <point x="50.0" y="191.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.LinkedTaskList.Node" target="com.roman.petrenko.Model.Task">
+      <point x="-39.5" y="0.0" />
+      <point x="640.0" y="160.0" />
+      <point x="40.0" y="-191.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.TaskIO" target="com.roman.petrenko.Model.Task">
+      <point x="-127.0" y="0.0" />
+      <point x="630.0" y="2200.0" />
+      <point x="30.0" y="191.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.LinkedTaskList.LinkedListIterator" target="com.roman.petrenko.Model.LinkedTaskList.Node">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController" target="com.roman.petrenko.View.TasksView">
+      <point x="137.0" y="0.0" />
+      <point x="3400.0" y="2880.0" />
+      <point x="-40.0" y="268.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.ArrayTaskList.ArrayListIterator" target="com.roman.petrenko.Model.ArrayTaskList">
+      <point x="0.0" y="48.0" />
+      <point x="960.0" y="1640.0" />
+      <point x="1240.0" y="1640.0" />
+      <point x="-40.0" y="81.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.LinkedTaskList" target="com.roman.petrenko.Model.Task">
+      <point x="-99.0" y="40.0" />
+      <point x="680.0" y="600.0" />
+      <point x="80.0" y="-191.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController" target="com.roman.petrenko.Controller.TasksNotificationsController">
+      <point x="-137.0" y="-73.33333333333348" />
+      <point x="2680.0" y="2806.6666666666665" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksNotificationsController" target="com.roman.petrenko.Model.Task">
+      <point x="0.0" y="-37.0" />
+      <point x="2680.0" y="0.0" />
+      <point x="600.0" y="0.0" />
+      <point x="0.0" y="-191.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksViewController" target="com.roman.petrenko.View.TasksView">
+      <point x="78.5" y="0.0" />
+      <point x="3640.0" y="1440.0" />
+      <point x="3640.0" y="1840.0" />
+      <point x="142.5" y="0.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController" target="com.roman.petrenko.Model.ArrayTaskList">
+      <point x="-137.0" y="0.0" />
+      <point x="0.0" y="2880.0" />
+      <point x="0.0" y="40.0" />
+      <point x="1840.0" y="40.0" />
+      <point x="1840.0" y="1320.0" />
+      <point x="99.0" y="0.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController" target="com.roman.petrenko.Model.TaskList">
+      <point x="-137.0" y="-66.66666666666652" />
+      <point x="2520.0" y="2813.3333333333335" />
+      <point x="2520.0" y="1860.0" />
+      <point x="97.0" y="20.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.LinkedTaskList.LinkedListIterator" target="com.roman.petrenko.Model.LinkedTaskList">
+      <point x="-83.5" y="40.0" />
+      <point x="1120.0" y="360.0" />
+      <point x="1120.0" y="560.0" />
+      <point x="-99.0" y="0.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController" target="com.roman.petrenko.Controller.TasksSaveController">
+      <point x="-137.0" y="-53.333333333333485" />
+      <point x="2320.0" y="2826.6666666666665" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.LinkedTaskList" target="com.roman.petrenko.Model.LinkedTaskList.LinkedListIterator">
+      <point x="-99.0" y="-40.0" />
+      <point x="1280.0" y="520.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActionsController" target="com.roman.petrenko.Controller.TasksActionsController.TasksListener">
+      <point x="-137.0" y="-26.666666666666515" />
+      <point x="320.0" y="2853.3333333333335" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksActions" target="com.roman.petrenko.Model.Task">
+      <point x="-137.0" y="0.0" />
+      <point x="610.0" y="2560.0" />
+      <point x="10.0" y="191.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.ArrayTaskList" target="com.roman.petrenko.Model.Task">
+      <point x="0.0" y="-81.0" />
+      <point x="1280.0" y="920.0" />
+      <point x="110.5" y="0.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksSaveController" target="com.roman.petrenko.Model.TaskList">
+      <point x="0.0" y="-37.0" />
+      <point x="2320.0" y="1900.0" />
+      <point x="97.0" y="60.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.Tasks" target="com.roman.petrenko.Model.TaskList">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.ArrayTaskList.ArrayListIterator" target="com.roman.petrenko.Model.Task">
+      <point x="-83.5" y="0.0" />
+      <point x="670.0" y="1520.0" />
+      <point x="70.0" y="191.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksNotificationsController" target="com.roman.petrenko.View.TasksView">
+      <point x="40.0" y="-37.0" />
+      <point x="2720.0" y="1520.0" />
+      <point x="3400.0" y="1520.0" />
+      <point x="-40.0" y="-268.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksViewController" target="com.roman.petrenko.Model.TaskList">
+      <point x="-78.5" y="0.0" />
+      <point x="1640.0" y="1440.0" />
+      <point x="80.0" y="-92.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.Tasks" target="com.roman.petrenko.Model.Task">
+      <point x="-213.0" y="0.0" />
+      <point x="640.0" y="2040.0" />
+      <point x="40.0" y="191.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.LinkedTaskList" target="com.roman.petrenko.Model.TaskList">
+      <point x="0.0" y="81.0" />
+      <point x="0.0" y="-92.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.TaskIO" target="com.roman.petrenko.Model.TaskList">
+      <point x="0.0" y="-136.0" />
+      <point x="2000.0" y="1920.0" />
+      <point x="97.0" y="80.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.LinkedTaskList" target="com.roman.petrenko.Model.LinkedTaskList.Node">
+      <point x="40.0" y="-81.0" />
+      <point x="1600.0" y="200.0" />
+      <point x="1720.0" y="200.0" />
+      <point x="1720.0" y="165.71428571428572" />
+      <point x="39.5" y="5.714285714285722" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksSaveController" target="com.roman.petrenko.Model.TaskIO">
+      <point x="-99.5" y="0.0" />
+      <point x="127.0" y="0.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.LinkedTaskList.LinkedListIterator" target="com.roman.petrenko.Model.Task">
+      <point x="-83.5" y="0.0" />
+      <point x="660.0" y="320.0" />
+      <point x="60.0" y="-191.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Model.ArrayTaskList" target="com.roman.petrenko.Model.ArrayTaskList.ArrayListIterator">
+      <point x="-99.0" y="0.0" />
+      <point x="960.0" y="1320.0" />
+      <point x="0.0" y="-48.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksNotificationsController" target="com.roman.petrenko.Model.TaskList">
+      <point x="-100.0" y="0.0" />
+      <point x="97.0" y="0.0" />
+    </edge>
+    <edge source="com.roman.petrenko.Controller.TasksNotificationsController" target="com.roman.petrenko.Controller.TasksActionsController">
+      <point x="100.0" y="15.71428571428578" />
+      <point x="3000.0" y="1855.7142857142858" />
+      <point x="-40.0" y="-114.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5064220183486239" x="1102.9764492753623" y="2275.657608695652" />
+  <SelectedNodes>
+    <node>com.roman.petrenko.Model.TaskIO</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
