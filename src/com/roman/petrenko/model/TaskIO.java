@@ -1,4 +1,4 @@
-package com.roman.petrenko.Model;
+package com.roman.petrenko.model;
 
 import java.io.*;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.roman.petrenko.Model;
+package com.roman.petrenko.model;
 
 import java.util.Iterator;
 

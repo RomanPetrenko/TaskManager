@@ -1,5 +1,5 @@
-package com.roman.petrenko.Controller;
-import com.roman.petrenko.Model.*;
+package com.roman.petrenko.controller;
+import com.roman.petrenko.model.*;
 import java.io.*;
 import java.text.ParseException;
 
