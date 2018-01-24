@@ -1,0 +1,8 @@
+2018-01-24 19:29:34 INFO  MainTasksActionsController:254 - Start
+2018-01-24 19:29:38 INFO  MainTasksActionsController:215 - Exit
+2018-01-24 19:30:28 INFO  MainTasksActionsController:254 - Start
+2018-01-24 19:30:38 DEBUG MainTasksActionsController:51 - Create unrepeatable task: Task(2): time = Wed Jan 24 19:30:00 EET 2018, active = true, unrepeated. 
+2018-01-24 19:30:43 DEBUG MainTasksActionsController:91 - Delete task: Task(2): time = Wed Jan 24 19:30:00 EET 2018, active = true, unrepeated. 
+2018-01-24 19:30:44 INFO  MainTasksActionsController:215 - Exit
+2018-01-24 19:32:34 INFO  MainTasksActionsController:254 - Start
+2018-01-24 19:32:45 INFO  MainTasksActionsController:215 - Exit

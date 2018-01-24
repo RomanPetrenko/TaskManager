@@ -146,7 +146,7 @@ public class MainTasksActionsController {
                     unRepeatableTaskView.setTime(dateFormat.format(new Date()));
                 }
                 if (e.getSource().equals(unRepeatableTaskView.unrepeatableTaskButton)) {
-                    createUnrepeatableTask(mainPanel.activeBox.isSelected());
+                    createUnrepeatableTask(unRepeatableTaskView.activeBox.isSelected());
                     unRepeatableTaskView.unRepeatableTaskForm.setVisible(false);
                 }
 

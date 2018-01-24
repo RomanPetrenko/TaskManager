@@ -1,9 +1,10 @@
 package com.roman.petrenko.model;
 
+import org.apache.log4j.Logger;
 import java.util.*;
 
 public class Tasks {
-
+    private static org.apache.log4j.Logger log = Logger.getLogger(Tasks.class);
     public static final Date firstDate = new Date(0);
 
     /**
@@ -33,10 +34,11 @@ public class Tasks {
             taskList = (TaskList) tasks.getClass().newInstance();
         } catch (InstantiationException e) {
             e.printStackTrace();
+            log.error("InstantiationException: ", e);
         } catch (IllegalAccessException e) {
             e.printStackTrace();
+            log.error("IllegalAccessException: ", e);
         }
-        //TaskList taskList = new ArrayTaskList();
 
         for (Task task : tasks) {
             if (task.nextTimeAfter(start) != null
