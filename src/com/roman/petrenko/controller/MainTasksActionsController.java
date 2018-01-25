@@ -165,13 +165,17 @@ public class MainTasksActionsController {
                     selectTaskView.createSelectTaskForm(selectTaskView.editTaskButton);
                 }
                 if (e.getSource().equals(selectTaskView.editTaskButton)) {
-                    editTaskView.createEditTaskForm();
                     Task task = (Task) selectTaskView.comboBox.getSelectedItem();
+                    editTaskView.createEditTaskForm();
                     if (task.isRepeated()) {
                         editTaskView.setTitle(task.getTitle());
                         editTaskView.setTime(dateFormat.format(task.getTime()));
                         editTaskView.setEndTime(dateFormat.format(task.getEndTime()));
                         editTaskView.setInterval(String.valueOf(task.getRepeatInterval()));
+                        editTaskView.endTimeField.setVisible(true);
+                        editTaskView.intervalField.setVisible(true);
+                        editTaskView.endTimeLabel.setVisible(true);
+                        editTaskView.intervalLabel.setVisible(true);
                     }
                     else {
                         editTaskView.setTitle(task.getTitle());

@@ -9,14 +9,16 @@ public class CalendarForm extends MainPanel {
     public JButton calendarButton = new JButton("Set period");
     public JButton calendarCloseButton = new JButton("Close");
     private JTextArea calendarField = new JTextArea();
+    private JScrollPane calendarScrollPane = new JScrollPane(calendarField);
 
     public void createCalendarForm() {
         JLabel startPeriodLabel = new JLabel("Start period");
         JLabel endPeriodLabel = new JLabel("End period");
-        JScrollPane calendarScrollPane = new JScrollPane(calendarField);
+
 
         calendarForm.setSize(800,550);
         calendarForm.setLocationRelativeTo(null);
+        calendarForm.setResizable(false);
 
         calendarField.setBounds(30,180,740,300);
         calendarField.setEditable(false);
