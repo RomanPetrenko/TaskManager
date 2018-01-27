@@ -14,8 +14,11 @@ public class SelectTaskForm extends MainPanel {
 
         selectTaskForm.setSize(350,500);
         selectTaskForm.setLocationRelativeTo(null);
+        selectTaskForm.setResizable(false);
 
         button.setBounds(30,300,280,40);
+        selectTaskForm.remove(editTaskButton);
+        selectTaskForm.remove(deleteTaskButton);
         selectTaskForm.add(button);
         selectTaskForm.add(cancelButton);
 
@@ -28,8 +31,6 @@ public class SelectTaskForm extends MainPanel {
     }
 
     public void close () {
-        selectTaskForm.remove(editTaskButton);
-        selectTaskForm.remove(deleteTaskButton);
         selectTaskForm.setVisible(false);
     }
 

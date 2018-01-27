@@ -35,8 +35,6 @@ public class MainPanel extends JFrame {
         JPanel mainPanel = new JPanel();
         this.setTitle("Task Manager");
         this.setSize(810,450);
-
-        tasksField.setBounds(30,10,740,280);
         tasksField.setEditable(false);
 
         JScrollPane areaScrollPane = new JScrollPane(tasksField);

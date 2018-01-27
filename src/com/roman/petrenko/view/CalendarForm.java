@@ -15,12 +15,10 @@ public class CalendarForm extends MainPanel {
         JLabel startPeriodLabel = new JLabel("Start period");
         JLabel endPeriodLabel = new JLabel("End period");
 
-
         calendarForm.setSize(800,550);
         calendarForm.setLocationRelativeTo(null);
         calendarForm.setResizable(false);
 
-        calendarField.setBounds(30,180,740,300);
         calendarField.setEditable(false);
         calendarScrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
         calendarScrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);

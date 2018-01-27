@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.text.*;
 import java.util.*;
 
-import org.apache.log4j.Logger;
+import org.apache.log4j.*;
 
 public class MainTasksActionsController {
 
@@ -101,6 +101,10 @@ public class MainTasksActionsController {
         Date start = parseToDate(calendarView.getStartPeriod());
         Date end = parseToDate(calendarView.getEndPeriod());
 
+        if (Tasks.calendar(taskList, start, end).isEmpty()) {
+            calendarView.setCalendar("No tasks for this period");
+            return;
+        }
         StringBuilder calendarToView = new StringBuilder();
         for (byte i = 0; i < 20; i++) calendarToView.append(" ");
         calendarToView.append("Dates");

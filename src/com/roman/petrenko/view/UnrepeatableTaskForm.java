@@ -12,6 +12,7 @@ public class UnrepeatableTaskForm extends MainPanel {
 
         unRepeatableTaskForm.setSize(350,450);
         unRepeatableTaskForm.setLocationRelativeTo(null);
+        unRepeatableTaskForm.setResizable(false);
 
         unrepeatableTaskButton.setBounds(30,300,280,40);
 

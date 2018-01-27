@@ -53,6 +53,8 @@ public class Task implements Cloneable {
             throw new IllegalArgumentException("Title can not be empty");
         if (start.before(firstTime))
             throw new IllegalArgumentException("Start time can not be earlier than 01.01.1970");
+        if (start.after(end))
+            throw new IndexOutOfBoundsException("\"Start\" can not be after \"End\"");
         if (interval < 0)
             throw new IllegalArgumentException("Interval can not be less than zero");
         this.title = title;
@@ -161,6 +163,8 @@ public class Task implements Cloneable {
             throws IllegalArgumentException {
         if (start.before(firstTime))
             throw new IllegalArgumentException("Start time can not be earlier than 01.01.1970");
+        if (start.after(end))
+            throw new IndexOutOfBoundsException("\"Start\" can not be after \"End\"");
         if (interval < 0)
             throw new IllegalArgumentException("Interval can not be less than zero");
         this.start = start;

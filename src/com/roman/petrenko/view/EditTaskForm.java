@@ -12,6 +12,7 @@ public class EditTaskForm extends MainPanel {
 
         editTaskForm.setSize(350,500);
         editTaskForm.setLocationRelativeTo(null);
+        editTaskForm.setResizable(false);
 
         editTaskButton.setBounds(30,300,280,40);
 

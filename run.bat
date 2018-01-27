@@ -1,2 +1,2 @@
-mvn exec:java -Dexec.mainClass="com.roman.petrenko.controller.MainTasksActionsController"
+java -jar TaskManager-1.0.jar
 pause

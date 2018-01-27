@@ -12,6 +12,7 @@ public class RepeatableTaskForm extends MainPanel {
 
         repeatableTaskForm.setSize(350,450);
         repeatableTaskForm.setLocationRelativeTo(null);
+        repeatableTaskForm.setResizable(false);
 
         repeatableTaskButton.setBounds(30,300,280,40);
 

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Created-By: Roman Petrenko
+Main-Class: com.roman.petrenko.controller.MainTasksActionsController
+Class-Path: lib\ lib\log4j-1.2.17.jar
+
+
+
+
